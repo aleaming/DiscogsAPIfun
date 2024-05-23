@@ -1,0 +1,89 @@
+.cta-button {
+    background-color: #f5f4ec; /* Updated color */
+    color: #2a2a25;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: stretch; /* To make the button fill the width of the card */
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #e0e039;
+  }
+  
+  
+  
+  /* Ensure previous styles remain the same */
+  .search-results {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .search-result-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .search-result-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .search-result-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .search-result-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #2a2a25;
+    font-size: 18px;
+  }
+  
+  .search-result-info h3.title {
+    font-size: 0.9em;
+    margin: 0;
+  }
+  
+  .search-result-info p {
+    margin: 3px 0;
+    font-size: 0.75em;
+    color: #2a2a25;
+  }
+  
+  .price-container {
+    background-color: #ffeb3b;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .price-container p.price {
+    font-weight: bold;
+    color: #2a2a25;
+    font-size: 18px;
+    margin: 0;
+  }
+  

@@ -1,0 +1,60 @@
+body {
+  background-color: #2a2a25;
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('https://example.com/your-background-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.hero .search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero .search-input {
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 25px 0 0 25px;
+  border: 1px solid #ddd;
+  flex: 1;
+  max-width: 400px;
+}
+
+.hero .search-button {
+  padding: 20px 30px;
+  font-size: 24px;
+  border-radius: 0 25px 25px 0;
+  border: 1px solid #ddd;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero .search-button:hover {
+  background-color: #0056b3;
+}
